@@ -1,2 +1,2 @@
 # swag-cat
-swag cat
+swag.cat
