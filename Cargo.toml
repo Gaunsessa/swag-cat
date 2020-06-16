@@ -1,0 +1,15 @@
+[package]
+name = "swagcat"
+version = "0.1.0"
+authors = ["Gauns <43172308+Gauns@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.5"
+rand = "0.7"
+
+[dependencies.rocket_contrib]
+version = "0.4.5"
+features = ["tera_templates"]
